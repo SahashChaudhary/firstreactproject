@@ -1,0 +1,43 @@
+nav {
+    background-color: #0c3820;
+    display: flex;
+    width: 100vw;
+}
+
+.icon img {
+    margin-left: 20px;
+    width: 50px;
+}
+.name{
+    margin-left: 20px;
+}
+
+.logo {
+    color: aliceblue;
+    display: flex;
+}
+.details{
+    display: flex;
+    justify-content: end;
+    width: 100vw;
+    margin-right: 20px;
+}
+
+.details ul {
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
+.details ul li{
+    margin-left: 20px;
+    display: flex;
+}
+.details ul li a{
+    color: white;
+    text-decoration: none;
+}
+.details ul li a:hover{
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 30%;
+}

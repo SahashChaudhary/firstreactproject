@@ -1,0 +1,31 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #021124;
+    display: grid;
+    place-content: center;
+}
+.info{
+    display: grid;
+    place-content: center;
+    width: 50vw;
+    height: auto;
+}
+.info .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info .image img{
+    width: 75%;
+    height: 75%;
+    border-radius: 45%;
+    
+}
+.text{
+    color: aliceblue;
+    text-align: center;
+}
+.work{
+    display: flex;
+}
